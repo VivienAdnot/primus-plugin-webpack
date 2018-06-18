@@ -1,0 +1,50 @@
+{
+  "name": "webpack-poc",
+  "version": "1.0.1",
+  "description": "Focus on webpack with an es6 app",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development $(npm bin)/webpack-dev-server --hot --progress  --config webpack.config.js",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivienAdnot/webpack-poc.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Vivien Adnot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivienAdnot/webpack-poc/issues"
+  },
+  "homepage": "https://github.com/VivienAdnot/webpack-poc#readme",
+  "dependencies": {
+    "html-webpack-plugin": "2.30.1",
+    "moment": "^2.22.2",
+    "primus": "6.1.0",
+    "sockjs": "0.3.19"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-eslint": "6.1.2",
+    "babel-loader": "6.3.2",
+    "babel-plugin-module-resolver": "2.7.1",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.23.0",
+    "babel-preset-stage-2": "6.22.0",
+    "class-name-builder": "0.1.2",
+    "compression-webpack-plugin": "0.3.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-import-resolver-babel-module": "3.0.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-import": "^2.3.0",
+    "primus-client-webpack-plugin": "^1.1.0",
+    "webpack": "1.15.0",
+    "webpack-dev-server": "1.16.3"
+  }
+}
